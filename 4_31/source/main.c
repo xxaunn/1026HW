@@ -2,9 +2,7 @@
 #include <stdlib.h>
 
 int main() {
-	int n;
-	printf("enter the size of the diamond:");
-	scanf("%d", &n);
+	int n=5;
 	for (int i = 0;i < n;i++) {
 		for (int j = n-1;j > i;j--) {
 			printf(" ");
